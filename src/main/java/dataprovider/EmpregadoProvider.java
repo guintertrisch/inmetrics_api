@@ -7,7 +7,7 @@ public class EmpregadoProvider {
 
 
     @DataProvider(name = "dados_empregado")
-    public static Object[][] createData() {
+    public static Object[][] geradosDadosEmpregado() {
         return new Object[][]{
                 new Object[]{new Empregado("12/12/2010",
                         "Analista",
@@ -29,6 +29,7 @@ public class EmpregadoProvider {
                         "Dona Maria", "2.500,00", "i", "pj"), "empregado sexo Indiferente e contratacao PJ"
                 }
         };
+
     }
 
 }
