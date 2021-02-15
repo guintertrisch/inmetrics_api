@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "empregadoId": {
+      "type": "integer"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "sexo": {
+      "type": "string"
+    },
+    "cpf": {
+      "type": "string"
+    },
+    "cargo": {
+      "type": "string"
+    },
+    "admissao": {
+      "type": "string"
+    },
+    "salario": {
+      "type": "string"
+    },
+    "comissao": {
+      "type": "string"
+    },
+    "tipoContratacao": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true,
+  "required": [
+    "empregadoId",
+    "nome",
+    "sexo",
+    "cpf",
+    "cargo",
+    "admissao",
+    "salario",
+    "comissao",
+    "tipoContratacao"
+  ]
+}
